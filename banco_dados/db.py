@@ -74,7 +74,7 @@ def autenticar(nome_usuario: str, senha: str):
         if row["status"] == "ativo":
             return dict(row)
         return {"erro": f"Acesso negado â€” status da conta: {row['status']}"}
-    return {"erro": "Credenciais invÃ¡lidas."}
+    return {"erro": "Credenciais inválidas."}
 
 def listar_usuarios():
     engine = get_engine()
