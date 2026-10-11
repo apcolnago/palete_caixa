@@ -15,5 +15,7 @@ wheels/
 *.xls
 *.pdf
 *.pptx
+*.docx
 
 *.env
+solucoes_salvas
